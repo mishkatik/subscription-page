@@ -70,8 +70,8 @@ jobs:
           tags: |
             ascellanetwork/subscription-page:latest
             ascellanetwork/subscription-page:${{github.ref_name}}
-            ghcr.io/ascella-network/subscription-page:latest
-            ghcr.io/ascella-network/subscription-page:${{github.ref_name}}
+            ghcr.io/mishkatik/subscription-page:latest
+            ghcr.io/mishkatik/subscription-page:${{github.ref_name}}
 
   send-telegram-message:
     name: Send Telegram message
